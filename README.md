@@ -1,7 +1,9 @@
 # HKPOLLUTION
 
-Simple CLI tool to get the current details of the pollution on any district in Hong Kong. 
+Simple CLI tool to get the current details of the pollution on any district in Hong Kong.
+
 It will display the information in a human readable format. 
+
 Air quality index are given in *abbr* like **pm2.5** which means atmospheric particulate matter so it make it easier to understand the indexes.
 
 
@@ -46,5 +48,7 @@ Measurements are given depending on the total air quality, as follow:
 ## Requirements
 
 You would need a token from aqicn.org to get it working in a project of your own.
+
 Then copy the token and paste it on the api_details file.
+
 **NOTE**: Make sure you use `git-secret` to secure your token details otherwise it will be a security risk to store keys on plain text even on github/gitlab.
